@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Rekenmachine</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <table id="rm" class="frame">
+        <tr>
+            <td colspan="4">
+                <div id="divinput"></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div id="divcalc"></div>
+            </td>
+        </tr>
+        <tr class="button">
+            <td onclick="knopKlik2(this)">/</td>
+            <td onclick="kwadraat(this)">x<span>&sup2;</span></td>
+            <td onclick="knopKlik2(this)">x<sup>y</sup></td>
+            <td onclick="knopKlik2(this)">x<sup>3</sup></td>
+        </tr>
+        <tr class="button">
+            <td onclick="knopKlik2(this)">1</td>
+            <td onclick="knopKlik2(this)">2</td>
+            <td onclick="knopKlik2(this)">3</td>
+            <td onclick="knopKlik2(this)">+</td>
+        </tr>
+        <tr class="button">
+            <td onclick="knopKlik2(this)">4</td>
+            <td onclick="knopKlik2(this)">5</td>
+            <td onclick="knopKlik2(this)">6</td>
+            <td onclick="knopKlik2(this)">x</td>
+        </tr>
+        <tr class="button">
+            <td onclick="knopKlik2(this)">7</td>
+            <td onclick="knopKlik2(this)">8</td>
+            <td onclick="knopKlik2(this)">9</td>
+            <td onclick="knopKlik2(this)">-</td>
+        </tr>
+        <tr class="button">
+            <td onclick="knopKlik2(this)">(</td>
+            <td onclick="knopKlik2(this)">0</td>
+            <td onclick="knopKlik2(this)">)</td>
+            <td onclick="knopKlik2(this)">=</td>
+        </tr>
+        <tr class="button">
+            <td colspan="2" onclick="knopKlik2(this)">C</td>
+            <td colspan="2" onclick="knopKlik2(this)">CE</td>
+        </tr>
+        <tr class="button">
+            <td colspan="4" onclick="Changecollor()">Verander kleur</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
